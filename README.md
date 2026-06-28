@@ -104,8 +104,12 @@ pip install -r requirements.txt
 ```
 
 ### Data Sources
-- **Sustainalytics ESG Scores** — Available via open access / Morningstar's public portal
-- **Yahoo Finance** — Fetched via `yfinance` Python library (included in requirements)
+
+🔗 **ESG Scores (Sustainalytics via Kaggle):** [S&P 500 ESG Risk Ratings — pritish509](https://www.kaggle.com/datasets/pritish509/s-and-p-500-esg-risk-ratings)  
+🔗 **ESG + Stock Data (Yahoo Finance sourced):** [S&P 500 ESG and Stocks Data 2023–24 — rikinzala](https://www.kaggle.com/datasets/rikinzala/s-and-p-500-esg-and-stocks-data-2023-24)  
+🔗 **Yahoo Finance financial data:** Fetched live via the `yfinance` Python library (no download needed)
+
+Download the ESG dataset CSV and place it in the `data/` folder. The `yfinance` library handles financial data automatically during script execution.
 
 ### Run the Pipeline
 ```bash
