@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.env
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large/raw files — share via link in README instead)
+data/raw/*.csv
+!data/raw/README.md
+
+# Power BI source files (too large for GitHub)
+*.pbix
+
+# IDE
+.vscode/
+.idea/
